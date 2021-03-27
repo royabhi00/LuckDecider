@@ -40,11 +40,11 @@ window.addEventListener("load", function () {
     };
     const imageLoop = setInterval(() => {
       randomImageGenerator(playerCounts);
-    }, 1000);
+    }, 2000);
 
     setTimeout(() => {
       checkWinner(playerCounts);
       clearInterval(imageLoop);
-    }, number * 1000);
+    }, number * 2000);
   });
 });
