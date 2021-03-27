@@ -1,39 +1,69 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>LuckDecider</title>
-        <link rel="stylesheet" href="./dice.css">
-    </head>
-    <body>
-        <h1 class="A">WELCOME TO THE LUCK DECIDER</h1>
-        <p class="B"> HELLO GUYS! THIS IS A 2 PLAYER LUCK DECIDER GAME BY USING DICE .</p>
-        <p class="B">CLICK ON THE BUTTOn TO START THE GAME.</p>
-        <!--<a href="index3.html" target="_self"><button class ="btn">ENTER THE GAME</button></a>-->
+  <head>
+    <meta charset="utf-8" />
+    <title>LuckDecider</title>
+    <link rel="stylesheet" href="./assets/css/dice.css" />
+  </head>
+  <body>
+    <h1 class="A">WELCOME TO THE LUCK DECIDER</h1>
+    <p class="B">
+      HELLO GUYS! THIS IS A 2 PLAYER LUCK DECIDER GAME BY USING DICE .
+    </p>
+    <p class="B">CLICK ON THE BUTTOn TO START THE GAME.</p>
+    <!--<a href="index3.html" target="_self"><button class ="btn">ENTER THE GAME</button></a>-->
 
-        <h1>ENTER THE FOLLOWING DETAILS</h1>
-        <form action="index2.html">
-            
-            <input type="text" id="player1" name="player1" placeholder="Player1 name" required>
-            <br><br>
-            <input type="text" id="player2" name="player2" placeholder="Player2 name" required>
-            <br><br>
-            <input type="number" id="number" name="number" min="1" placeholder="Number of roll" required>
-            <br><br>
-            <a href="./index2.html" target="_self"><input type="submit" value="Enter" name="submit" onclick="handleSubmit()"></a>
-        </form>
-       
-        <script src="./dice.js" charset="utf-8"></script>
+    <h1>ENTER THE FOLLOWING DETAILS</h1>
+    <form action="./assets/pages/index2.html">
+      <input
+        type="text"
+        id="player1"
+        name="player1"
+        placeholder="Player1 name"
+        required
+      />
+      <br /><br />
+      <input
+        type="text"
+        id="player2"
+        name="player2"
+        placeholder="Player2 name"
+        required
+      />
+      <br /><br />
+      <input
+        type="number"
+        id="number"
+        name="number"
+        min="1"
+        placeholder="Number of roll"
+        required
+      />
+      <br /><br />
+      <a href="./assets/pages/index2.html" target="_self"
+        ><input
+          type="submit"
+          value="Enter"
+          name="submit"
+          onclick="handleSubmit()"
+      /></a>
+    </form>
 
-        <h2>RULES:</h2>
-        <p>1. This is 2 players game.</p>
-        <p>2. The number you entered is the number of time the dice will roll.</p>
-        <p>3. Winner will be decided by adding the numbers they got from each roll</p>
-        <br><br><br>
-        <h2>WHY THIS??</h2>
-        <p>This game is test the luckiest from 2 in a broad way.</p>
-        <p>Broad way means not just by doing one time luck test Eg:- tossing a coin.</p>
-        <p>So you are given a choice for deciding the number of roll.</p>
-        <br><br><br>
-    </body>
+    <script src="./assets/js/dice.js" charset="utf-8"></script>
+
+    <h2>RULES:</h2>
+    <p>1. This is 2 players game.</p>
+    <p>2. The number you entered is the number of time the dice will roll.</p>
+    <p>
+      3. Winner will be decided by adding the numbers they got from each roll
+    </p>
+    <br /><br /><br />
+    <h2>WHY THIS??</h2>
+    <p>This game is test the luckiest from 2 in a broad way.</p>
+    <p>
+      Broad way means not just by doing one time luck test Eg:- tossing a coin.
+    </p>
+    <p>So you are given a choice for deciding the number of roll.</p>
+    <br /><br /><br />
+  </body>
 </html>
